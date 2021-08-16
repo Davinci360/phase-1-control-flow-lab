@@ -1,15 +1,16 @@
 function scuberGreetingForFeet(number){
   let result;
-  /* const time = new Date().getHours(28);
-  let greeting;
-  if (time < 10) {
-    greeting = "Good morning";
-  } else if (time < 20) {
-    greeting = "Good day";
-  } else {
-    greeting = "Good evening";
+  /* const feet = undefined;
+let greeting;
+if (feet <= 400) {
+  greeting = "free ride";
+} else if (feet <= 2500) {
+  greeting = "30 bucks";
+} else {
+  greeting = "no can do";
+}
   }*/
-    if (number <= 400) {
+    if (number <= 400 ) {
       result = "This one is on me!";
   } else if (number <= 2500) {
       result = "I will gladly take your thirty bucks.";
