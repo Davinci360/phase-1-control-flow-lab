@@ -2,12 +2,12 @@
   "stats": {
     "suites": 4,
     "tests": 8,
-    "passes": 0,
+    "passes": 1,
     "pending": 0,
-    "failures": 8,
-    "start": "2021-08-16T17:22:29.852Z",
-    "end": "2021-08-16T17:22:30.226Z",
-    "duration": 374
+    "failures": 7,
+    "start": "2021-08-16T17:28:22.801Z",
+    "end": "2021-08-16T17:28:23.091Z",
+    "duration": 290
   },
   "tests": [
     {
@@ -60,24 +60,10 @@
       "title": "does not allow rides over 2500 feet",
       "fullTitle": "index.js scuberGreetingForFeet() does not allow rides over 2500 feet",
       "file": "/home/jaybelieve/phase-1/phase-1-control-flow-lab/test/indexTest.js",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "message": "expected undefined to equal 'No can do.'",
-        "showDiff": true,
-        "expected": "No can do.",
-        "stack": "AssertionError: expected undefined to equal 'No can do.'\n    at Context.<anonymous> (test/indexTest.js:12:46)\n    at processImmediate (node:internal/timers:464:21)",
-        "multiple": [
-          {
-            "name": "AssertionError",
-            "message": "expected undefined to equal 'No can do.'",
-            "showDiff": true,
-            "expected": "No can do.",
-            "multiple": "AssertionError: expected undefined to equal 'No can do.'",
-            "stack": "AssertionError: expected undefined to equal 'No can do.'\n    at Context.<anonymous> (test/indexTest.js:12:46)\n    at processImmediate (node:internal/timers:464:21)"
-          }
-        ]
-      }
+      "speed": "fast",
+      "err": {}
     },
     {
       "title": "returns \"Ok, sounds good.\" when the city is NYC",
@@ -244,29 +230,6 @@
       }
     },
     {
-      "title": "does not allow rides over 2500 feet",
-      "fullTitle": "index.js scuberGreetingForFeet() does not allow rides over 2500 feet",
-      "file": "/home/jaybelieve/phase-1/phase-1-control-flow-lab/test/indexTest.js",
-      "duration": 1,
-      "currentRetry": 0,
-      "err": {
-        "message": "expected undefined to equal 'No can do.'",
-        "showDiff": true,
-        "expected": "No can do.",
-        "stack": "AssertionError: expected undefined to equal 'No can do.'\n    at Context.<anonymous> (test/indexTest.js:12:46)\n    at processImmediate (node:internal/timers:464:21)",
-        "multiple": [
-          {
-            "name": "AssertionError",
-            "message": "expected undefined to equal 'No can do.'",
-            "showDiff": true,
-            "expected": "No can do.",
-            "multiple": "AssertionError: expected undefined to equal 'No can do.'",
-            "stack": "AssertionError: expected undefined to equal 'No can do.'\n    at Context.<anonymous> (test/indexTest.js:12:46)\n    at processImmediate (node:internal/timers:464:21)"
-          }
-        ]
-      }
-    },
-    {
       "title": "returns \"Ok, sounds good.\" when the city is NYC",
       "fullTitle": "index.js ternaryCheckCity() returns \"Ok, sounds good.\" when the city is NYC",
       "file": "/home/jaybelieve/phase-1/phase-1-control-flow-lab/test/indexTest.js",
@@ -382,5 +345,15 @@
       }
     }
   ],
-  "passes": []
+  "passes": [
+    {
+      "title": "does not allow rides over 2500 feet",
+      "fullTitle": "index.js scuberGreetingForFeet() does not allow rides over 2500 feet",
+      "file": "/home/jaybelieve/phase-1/phase-1-control-flow-lab/test/indexTest.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    }
+  ]
 }
