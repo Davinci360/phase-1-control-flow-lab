@@ -1,0 +1,367 @@
+{
+  "stats": {
+    "suites": 4,
+    "tests": 8,
+    "passes": 1,
+    "pending": 0,
+    "failures": 7,
+    "start": "2021-08-16T08:43:11.665Z",
+    "end": "2021-08-16T08:43:11.916Z",
+    "duration": 251
+  },
+  "tests": [
+    {
+      "title": "gives customers a free sample if the ride is less than or equal to 400 feet",
+      "fullTitle": "index.js scuberGreetingForFeet() gives customers a free sample if the ride is less than or equal to 400 feet",
+      "file": "/home/jaybelieve/phase-1/phase-1-control-flow-lab/test/indexTest.js",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected 'I will gladly take your thirty bucks.' to equal 'This one is on me!'",
+        "showDiff": true,
+        "actual": "I will gladly take your thirty bucks.",
+        "expected": "This one is on me!",
+        "stack": "AssertionError: expected 'I will gladly take your thirty bucks.' to equal 'This one is on me!'\n    at Context.<anonymous> (test/indexTest.js:4:45)\n    at processImmediate (node:internal/timers:464:21)",
+        "multiple": [
+          {
+            "name": "AssertionError",
+            "message": "expected 'I will gladly take your thirty bucks.' to equal 'This one is on me!'",
+            "showDiff": true,
+            "actual": "I will gladly take your thirty bucks.",
+            "expected": "This one is on me!",
+            "multiple": "AssertionError: expected 'I will gladly take your thirty bucks.' to equal 'This one is on me!'",
+            "stack": "AssertionError: expected 'I will gladly take your thirty bucks.' to equal 'This one is on me!'\n    at Context.<anonymous> (test/indexTest.js:4:45)\n    at processImmediate (node:internal/timers:464:21)"
+          }
+        ]
+      }
+    },
+    {
+      "title": "charges 30 dollars for a distance over 2000 feet",
+      "fullTitle": "index.js scuberGreetingForFeet() charges 30 dollars for a distance over 2000 feet",
+      "file": "/home/jaybelieve/phase-1/phase-1-control-flow-lab/test/indexTest.js",
+      "duration": 1,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "does not allow rides over 2500 feet",
+      "fullTitle": "index.js scuberGreetingForFeet() does not allow rides over 2500 feet",
+      "file": "/home/jaybelieve/phase-1/phase-1-control-flow-lab/test/indexTest.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected 'I will gladly take your thirty bucks.' to equal 'No can do.'",
+        "showDiff": true,
+        "actual": "I will gladly take your thirty bucks.",
+        "expected": "No can do.",
+        "stack": "AssertionError: expected 'I will gladly take your thirty bucks.' to equal 'No can do.'\n    at Context.<anonymous> (test/indexTest.js:12:46)\n    at processImmediate (node:internal/timers:464:21)",
+        "multiple": [
+          {
+            "name": "AssertionError",
+            "message": "expected 'I will gladly take your thirty bucks.' to equal 'No can do.'",
+            "showDiff": true,
+            "actual": "I will gladly take your thirty bucks.",
+            "expected": "No can do.",
+            "multiple": "AssertionError: expected 'I will gladly take your thirty bucks.' to equal 'No can do.'",
+            "stack": "AssertionError: expected 'I will gladly take your thirty bucks.' to equal 'No can do.'\n    at Context.<anonymous> (test/indexTest.js:12:46)\n    at processImmediate (node:internal/timers:464:21)"
+          }
+        ]
+      }
+    },
+    {
+      "title": "returns \"Ok, sounds good.\" when the city is NYC",
+      "fullTitle": "index.js ternaryCheckCity() returns \"Ok, sounds good.\" when the city is NYC",
+      "file": "/home/jaybelieve/phase-1/phase-1-control-flow-lab/test/indexTest.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected undefined to equal 'Ok, sounds good.'",
+        "showDiff": true,
+        "expected": "Ok, sounds good.",
+        "stack": "AssertionError: expected undefined to equal 'Ok, sounds good.'\n    at Context.<anonymous> (test/indexTest.js:18:42)\n    at processImmediate (node:internal/timers:464:21)",
+        "multiple": [
+          {
+            "name": "AssertionError",
+            "message": "expected undefined to equal 'Ok, sounds good.'",
+            "showDiff": true,
+            "expected": "Ok, sounds good.",
+            "multiple": "AssertionError: expected undefined to equal 'Ok, sounds good.'",
+            "stack": "AssertionError: expected undefined to equal 'Ok, sounds good.'\n    at Context.<anonymous> (test/indexTest.js:18:42)\n    at processImmediate (node:internal/timers:464:21)"
+          }
+        ]
+      }
+    },
+    {
+      "title": "should return \"No go.\" if the destination city is not NYC",
+      "fullTitle": "index.js ternaryCheckCity() should return \"No go.\" if the destination city is not NYC",
+      "file": "/home/jaybelieve/phase-1/phase-1-control-flow-lab/test/indexTest.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected undefined to equal 'No go.'",
+        "showDiff": true,
+        "expected": "No go.",
+        "stack": "AssertionError: expected undefined to equal 'No go.'\n    at Context.<anonymous> (test/indexTest.js:22:49)\n    at processImmediate (node:internal/timers:464:21)",
+        "multiple": [
+          {
+            "name": "AssertionError",
+            "message": "expected undefined to equal 'No go.'",
+            "showDiff": true,
+            "expected": "No go.",
+            "multiple": "AssertionError: expected undefined to equal 'No go.'",
+            "stack": "AssertionError: expected undefined to equal 'No go.'\n    at Context.<anonymous> (test/indexTest.js:22:49)\n    at processImmediate (node:internal/timers:464:21)"
+          }
+        ]
+      }
+    },
+    {
+      "title": "should return \"Thank you so much.\" if the tip is generous",
+      "fullTitle": "index.js switchOnCharmFromTip() should return \"Thank you so much.\" if the tip is generous",
+      "file": "/home/jaybelieve/phase-1/phase-1-control-flow-lab/test/indexTest.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected undefined to equal 'Thank you so much.'",
+        "showDiff": true,
+        "expected": "Thank you so much.",
+        "stack": "AssertionError: expected undefined to equal 'Thank you so much.'\n    at Context.<anonymous> (test/indexTest.js:28:51)\n    at processImmediate (node:internal/timers:464:21)",
+        "multiple": [
+          {
+            "name": "AssertionError",
+            "message": "expected undefined to equal 'Thank you so much.'",
+            "showDiff": true,
+            "expected": "Thank you so much.",
+            "multiple": "AssertionError: expected undefined to equal 'Thank you so much.'",
+            "stack": "AssertionError: expected undefined to equal 'Thank you so much.'\n    at Context.<anonymous> (test/indexTest.js:28:51)\n    at processImmediate (node:internal/timers:464:21)"
+          }
+        ]
+      }
+    },
+    {
+      "title": "should return \"Thank you.\" if the tip is not as generous",
+      "fullTitle": "index.js switchOnCharmFromTip() should return \"Thank you.\" if the tip is not as generous",
+      "file": "/home/jaybelieve/phase-1/phase-1-control-flow-lab/test/indexTest.js",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected undefined to equal 'Thank you.'",
+        "showDiff": true,
+        "expected": "Thank you.",
+        "stack": "AssertionError: expected undefined to equal 'Thank you.'\n    at Context.<anonymous> (test/indexTest.js:32:58)\n    at processImmediate (node:internal/timers:464:21)",
+        "multiple": [
+          {
+            "name": "AssertionError",
+            "message": "expected undefined to equal 'Thank you.'",
+            "showDiff": true,
+            "expected": "Thank you.",
+            "multiple": "AssertionError: expected undefined to equal 'Thank you.'",
+            "stack": "AssertionError: expected undefined to equal 'Thank you.'\n    at Context.<anonymous> (test/indexTest.js:32:58)\n    at processImmediate (node:internal/timers:464:21)"
+          }
+        ]
+      }
+    },
+    {
+      "title": "should return \"Bye.\" if anything else",
+      "fullTitle": "index.js switchOnCharmFromTip() should return \"Bye.\" if anything else",
+      "file": "/home/jaybelieve/phase-1/phase-1-control-flow-lab/test/indexTest.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected undefined to equal 'Bye.'",
+        "showDiff": true,
+        "expected": "Bye.",
+        "stack": "AssertionError: expected undefined to equal 'Bye.'\n    at Context.<anonymous> (test/indexTest.js:36:64)\n    at processImmediate (node:internal/timers:464:21)",
+        "multiple": [
+          {
+            "name": "AssertionError",
+            "message": "expected undefined to equal 'Bye.'",
+            "showDiff": true,
+            "expected": "Bye.",
+            "multiple": "AssertionError: expected undefined to equal 'Bye.'",
+            "stack": "AssertionError: expected undefined to equal 'Bye.'\n    at Context.<anonymous> (test/indexTest.js:36:64)\n    at processImmediate (node:internal/timers:464:21)"
+          }
+        ]
+      }
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "gives customers a free sample if the ride is less than or equal to 400 feet",
+      "fullTitle": "index.js scuberGreetingForFeet() gives customers a free sample if the ride is less than or equal to 400 feet",
+      "file": "/home/jaybelieve/phase-1/phase-1-control-flow-lab/test/indexTest.js",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected 'I will gladly take your thirty bucks.' to equal 'This one is on me!'",
+        "showDiff": true,
+        "actual": "I will gladly take your thirty bucks.",
+        "expected": "This one is on me!",
+        "stack": "AssertionError: expected 'I will gladly take your thirty bucks.' to equal 'This one is on me!'\n    at Context.<anonymous> (test/indexTest.js:4:45)\n    at processImmediate (node:internal/timers:464:21)",
+        "multiple": [
+          {
+            "name": "AssertionError",
+            "message": "expected 'I will gladly take your thirty bucks.' to equal 'This one is on me!'",
+            "showDiff": true,
+            "actual": "I will gladly take your thirty bucks.",
+            "expected": "This one is on me!",
+            "multiple": "AssertionError: expected 'I will gladly take your thirty bucks.' to equal 'This one is on me!'",
+            "stack": "AssertionError: expected 'I will gladly take your thirty bucks.' to equal 'This one is on me!'\n    at Context.<anonymous> (test/indexTest.js:4:45)\n    at processImmediate (node:internal/timers:464:21)"
+          }
+        ]
+      }
+    },
+    {
+      "title": "does not allow rides over 2500 feet",
+      "fullTitle": "index.js scuberGreetingForFeet() does not allow rides over 2500 feet",
+      "file": "/home/jaybelieve/phase-1/phase-1-control-flow-lab/test/indexTest.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected 'I will gladly take your thirty bucks.' to equal 'No can do.'",
+        "showDiff": true,
+        "actual": "I will gladly take your thirty bucks.",
+        "expected": "No can do.",
+        "stack": "AssertionError: expected 'I will gladly take your thirty bucks.' to equal 'No can do.'\n    at Context.<anonymous> (test/indexTest.js:12:46)\n    at processImmediate (node:internal/timers:464:21)",
+        "multiple": [
+          {
+            "name": "AssertionError",
+            "message": "expected 'I will gladly take your thirty bucks.' to equal 'No can do.'",
+            "showDiff": true,
+            "actual": "I will gladly take your thirty bucks.",
+            "expected": "No can do.",
+            "multiple": "AssertionError: expected 'I will gladly take your thirty bucks.' to equal 'No can do.'",
+            "stack": "AssertionError: expected 'I will gladly take your thirty bucks.' to equal 'No can do.'\n    at Context.<anonymous> (test/indexTest.js:12:46)\n    at processImmediate (node:internal/timers:464:21)"
+          }
+        ]
+      }
+    },
+    {
+      "title": "returns \"Ok, sounds good.\" when the city is NYC",
+      "fullTitle": "index.js ternaryCheckCity() returns \"Ok, sounds good.\" when the city is NYC",
+      "file": "/home/jaybelieve/phase-1/phase-1-control-flow-lab/test/indexTest.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected undefined to equal 'Ok, sounds good.'",
+        "showDiff": true,
+        "expected": "Ok, sounds good.",
+        "stack": "AssertionError: expected undefined to equal 'Ok, sounds good.'\n    at Context.<anonymous> (test/indexTest.js:18:42)\n    at processImmediate (node:internal/timers:464:21)",
+        "multiple": [
+          {
+            "name": "AssertionError",
+            "message": "expected undefined to equal 'Ok, sounds good.'",
+            "showDiff": true,
+            "expected": "Ok, sounds good.",
+            "multiple": "AssertionError: expected undefined to equal 'Ok, sounds good.'",
+            "stack": "AssertionError: expected undefined to equal 'Ok, sounds good.'\n    at Context.<anonymous> (test/indexTest.js:18:42)\n    at processImmediate (node:internal/timers:464:21)"
+          }
+        ]
+      }
+    },
+    {
+      "title": "should return \"No go.\" if the destination city is not NYC",
+      "fullTitle": "index.js ternaryCheckCity() should return \"No go.\" if the destination city is not NYC",
+      "file": "/home/jaybelieve/phase-1/phase-1-control-flow-lab/test/indexTest.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected undefined to equal 'No go.'",
+        "showDiff": true,
+        "expected": "No go.",
+        "stack": "AssertionError: expected undefined to equal 'No go.'\n    at Context.<anonymous> (test/indexTest.js:22:49)\n    at processImmediate (node:internal/timers:464:21)",
+        "multiple": [
+          {
+            "name": "AssertionError",
+            "message": "expected undefined to equal 'No go.'",
+            "showDiff": true,
+            "expected": "No go.",
+            "multiple": "AssertionError: expected undefined to equal 'No go.'",
+            "stack": "AssertionError: expected undefined to equal 'No go.'\n    at Context.<anonymous> (test/indexTest.js:22:49)\n    at processImmediate (node:internal/timers:464:21)"
+          }
+        ]
+      }
+    },
+    {
+      "title": "should return \"Thank you so much.\" if the tip is generous",
+      "fullTitle": "index.js switchOnCharmFromTip() should return \"Thank you so much.\" if the tip is generous",
+      "file": "/home/jaybelieve/phase-1/phase-1-control-flow-lab/test/indexTest.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected undefined to equal 'Thank you so much.'",
+        "showDiff": true,
+        "expected": "Thank you so much.",
+        "stack": "AssertionError: expected undefined to equal 'Thank you so much.'\n    at Context.<anonymous> (test/indexTest.js:28:51)\n    at processImmediate (node:internal/timers:464:21)",
+        "multiple": [
+          {
+            "name": "AssertionError",
+            "message": "expected undefined to equal 'Thank you so much.'",
+            "showDiff": true,
+            "expected": "Thank you so much.",
+            "multiple": "AssertionError: expected undefined to equal 'Thank you so much.'",
+            "stack": "AssertionError: expected undefined to equal 'Thank you so much.'\n    at Context.<anonymous> (test/indexTest.js:28:51)\n    at processImmediate (node:internal/timers:464:21)"
+          }
+        ]
+      }
+    },
+    {
+      "title": "should return \"Thank you.\" if the tip is not as generous",
+      "fullTitle": "index.js switchOnCharmFromTip() should return \"Thank you.\" if the tip is not as generous",
+      "file": "/home/jaybelieve/phase-1/phase-1-control-flow-lab/test/indexTest.js",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected undefined to equal 'Thank you.'",
+        "showDiff": true,
+        "expected": "Thank you.",
+        "stack": "AssertionError: expected undefined to equal 'Thank you.'\n    at Context.<anonymous> (test/indexTest.js:32:58)\n    at processImmediate (node:internal/timers:464:21)",
+        "multiple": [
+          {
+            "name": "AssertionError",
+            "message": "expected undefined to equal 'Thank you.'",
+            "showDiff": true,
+            "expected": "Thank you.",
+            "multiple": "AssertionError: expected undefined to equal 'Thank you.'",
+            "stack": "AssertionError: expected undefined to equal 'Thank you.'\n    at Context.<anonymous> (test/indexTest.js:32:58)\n    at processImmediate (node:internal/timers:464:21)"
+          }
+        ]
+      }
+    },
+    {
+      "title": "should return \"Bye.\" if anything else",
+      "fullTitle": "index.js switchOnCharmFromTip() should return \"Bye.\" if anything else",
+      "file": "/home/jaybelieve/phase-1/phase-1-control-flow-lab/test/indexTest.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected undefined to equal 'Bye.'",
+        "showDiff": true,
+        "expected": "Bye.",
+        "stack": "AssertionError: expected undefined to equal 'Bye.'\n    at Context.<anonymous> (test/indexTest.js:36:64)\n    at processImmediate (node:internal/timers:464:21)",
+        "multiple": [
+          {
+            "name": "AssertionError",
+            "message": "expected undefined to equal 'Bye.'",
+            "showDiff": true,
+            "expected": "Bye.",
+            "multiple": "AssertionError: expected undefined to equal 'Bye.'",
+            "stack": "AssertionError: expected undefined to equal 'Bye.'\n    at Context.<anonymous> (test/indexTest.js:36:64)\n    at processImmediate (node:internal/timers:464:21)"
+          }
+        ]
+      }
+    }
+  ],
+  "passes": [
+    {
+      "title": "charges 30 dollars for a distance over 2000 feet",
+      "fullTitle": "index.js scuberGreetingForFeet() charges 30 dollars for a distance over 2000 feet",
+      "file": "/home/jaybelieve/phase-1/phase-1-control-flow-lab/test/indexTest.js",
+      "duration": 1,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    }
+  ]
+}
