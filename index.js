@@ -9,9 +9,9 @@ function scuberGreetingForFeet(number){
   } else {
     greeting = "Good evening";
   }*/
-    if (number < 400) {
+    if (number <= 400) {
       result = "This one is on me!";
-  } else if (number < 2500) {
+  } else if (number <= 2500) {
       result = "I will gladly take your thirty bucks.";
   } else {
       result = "No can do.";

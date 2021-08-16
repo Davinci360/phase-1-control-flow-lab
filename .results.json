@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 7,
-    "start": "2021-08-16T17:28:22.801Z",
-    "end": "2021-08-16T17:28:23.091Z",
-    "duration": 290
+    "start": "2021-08-16T17:42:35.147Z",
+    "end": "2021-08-16T17:42:35.404Z",
+    "duration": 257
   },
   "tests": [
     {
@@ -161,7 +161,7 @@
       "title": "should return \"Bye.\" if anything else",
       "fullTitle": "index.js switchOnCharmFromTip() should return \"Bye.\" if anything else",
       "file": "/home/jaybelieve/phase-1/phase-1-control-flow-lab/test/indexTest.js",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {
         "message": "expected undefined to equal 'Bye.'",
@@ -325,7 +325,7 @@
       "title": "should return \"Bye.\" if anything else",
       "fullTitle": "index.js switchOnCharmFromTip() should return \"Bye.\" if anything else",
       "file": "/home/jaybelieve/phase-1/phase-1-control-flow-lab/test/indexTest.js",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {
         "message": "expected undefined to equal 'Bye.'",
